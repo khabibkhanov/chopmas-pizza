@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: #ffffff;
+}
+
+.background-image {
+  width: 100vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+  z-index: -1;
+  height: 100vh;
+}
+
+.primary-heading {
+  color: #ffffff;
+  text-align: center;
+}
+
+.pizza-form {
+  background-color: rgba(165, 164, 164, 0.5);
+  width: 30%;
+  padding: 20px;
+  padding-top: 15px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  left: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pizza-result {
+  position: absolute;
+  top: 180px;
+  right: 40px;
+  z-index: 1;
+  width: 40%;
+}
+
+.pizza-radios-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 45px;
+  width: 65%;
+}
+
+input[type=radio]:checked + label {
+  color: #ff0000;
+}
+
+.pizza-ings-checkboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 75%;
+  padding-right: 35px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pizza-extra-ings-checkboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 75%;
+  padding: 0 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+input[type=checkbox]:checked + label {
+  color: #ff0000;
+}
+/*# sourceMappingURL=main.css.map */

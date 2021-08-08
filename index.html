@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>Chopmas Pizza | Buyurtma berish</title>
+</head>
+
+<body>
+  <img src="./images/pizzamenu.jpg" alt="background-image" class="background-image">
+
+  <div class="pizza-wrapper">
+    <form class="pizza-form">
+      <h1 class="primary-heading">Pitsa buyurtma qilish</h1>
+      <h3 class="pizza-titles">
+        Pitsa qalinligini tanlang
+      </h3>
+      <select name="" id="" class="pizza-select">
+        <option value="yupqa">Yupqa</option>
+        <option value="o'rta">O'rta</option>
+        <option value="qalin">Qalin</option>
+      </select>
+
+      <h3 class="pizza-titles">
+        Pitsa o'lchamini tanlang
+      </h3>
+      <div class="pizza-radios-group">
+        <input type="radio" name="pizza-size" id="pizza-small" value="25 sm" class="pizza-radio">
+        <label for="pizza-small">25 sm</label>
+        <input type="radio" name="pizza-size" id="pizza-medium" value="30 sm" class="pizza-radio">
+        <label for="pizza-medium">30 sm</label>
+        <input type="radio" name="pizza-size" id="pizza-large" value="35 sm" class="pizza-radio">
+        <label for="pizza-large">35 sm</label>
+      </div>
+
+      <h3 class="pizza-titles">
+        Pitsa uchun masalliqlardan tanlang
+      </h3>
+
+      <div class="pizza-ings-checkboxes">
+        <ul>
+          <li>
+            <input type="checkbox" name="pizza-ing" id="check-qazi" value="qazi" class="pizza-ing">
+            <label for="check-qazi">Qazi</label>
+          </li>
+
+          <li>
+            <input type="checkbox" name="pizza-ing" id="check-kurka" value="kurka-goshti" class="pizza-ing">
+            <label for="check-kurka">Kurka go'shti</label>
+          </li>
+
+          <li>
+            <input type="checkbox" name="pizza-ing" id="check-tomato" value="pomidor" class="pizza-ing">
+            <label for="check-tomato">Pomidor</label>
+          </li>
+
+        </ul>
+
+        <ul>
+          <li>
+            <input type="checkbox" name="pizza-ing" id="check-cucumber" value="bodring" class="pizza-ing">
+            <label for="check-cucumber">Bodring</label>
+          </li>
+
+          <li>
+            <input type="checkbox" name="pizza-ing" id="check-mushroom" value="qoziqorin" class="pizza-ing">
+            <label for="check-mushroom">Qoziqorin</label>
+          </li>
+
+          <li>
+            <input type="checkbox" name="pizza-ing" id="check-olive" value="zaytun" class="pizza-ing">
+            <label for="check-olive">Zaytun</label>
+          </li>
+        </ul>
+
+
+
+      </div>
+
+      <h3 class="pizza-titles">
+        Pitsa uchun qo'shimchalar maxsulotlar tanlang
+      </h3>
+
+      <div class="pizza-extra-ings-checkboxes">
+        <input type="checkbox" name="pizza-extra-ing" id="check-sausage" value="sausage" class="pizza-extra-ing">
+        <label for="check-sausage">Sosiskali</label>
+
+        <input type="checkbox" name="pizza-extra-ing" id="check-spicy" value="spicy" class="pizza-extra-ing">
+        <label for="check-spicy">Achchiq</label>
+      </div>
+    </form>
+
+    <div class="pizza-result">
+      <h3>Qalinligi: <span class="pizza-result-thickness"></span></h3>
+      <h3>Razmeri: <span class="pizza-result-size"></span></h3>
+
+      <h3>Masaliqlari:</h3>
+      <ul class="pizza-result-ings">
+
+      </ul>
+
+      <h3>Qo'shimcha:</h3>
+      <ul class="pizza-result-extra-ings">
+
+      </ul>
+    </div>
+
+  </div>
+
+
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>
